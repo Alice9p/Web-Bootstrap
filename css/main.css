@@ -1,0 +1,90 @@
+/*
+--pale-spring-bud: #e3e7afff;
+--artichoke: #a2a77fff;
+--pale-spring-bud-2: #eff1c5ff;
+--blue-sapphire: #035e7bff;
+--rich-black: #002e2cff;
+ */
+
+/* GENERALES */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ASÍ DEBEN SER TODOS LOS CONTAINERS EN WEB PAGES */
+.container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* FIN GENERALES */
+
+/* landing */
+
+.landing {
+    color: white;
+    background-image: url(../img/laptop.jpg);
+    background-size: cover;
+    /* centrar imagen
+    background-size: cover;
+    background-position: center center;
+     */
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.separador {
+    border: 0;
+    border-top: 3px solid #D91E1EFF;
+    width: 3rem;
+}
+
+.texto {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: .9rem;
+}
+
+.boton {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8rem;
+    background-color: #D91E1EFF;
+    font-weight: bold;
+    padding: .8rem 1rem;
+    border-radius: 3rem;
+}
+
+/*Fin  landing*/
+
+/* Info */
+
+.info {
+    text-align: center;
+    background-color: #D91E1EFF;
+    color: white;
+    padding: 3rem 0;
+}
+
+.info .titulo {
+    text-transform: none;
+    font-size: 2rem;
+}
+
+.info .separador {
+    border-color: white;
+}
+
+.info .boton {
+    background-color: white;
+    color: black;
+}
+
+/* Fin Info */
